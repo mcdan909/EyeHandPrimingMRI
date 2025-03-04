@@ -128,7 +128,7 @@ STEP 6. PREPROCESS THE ANATOMICAL AND ALIGN WITH THE FUNCTIONAL DATA
 
 STEP 7. PREP THE DATA FOR THE GLM
 
-1. Run the script ‘GLMprep’ to perform smoothing and normalization (so data can be expressed in terms of % signal change instead of beta weights)
+1. Run the script ‘prepGLMStep7.sh’ to perform smoothing and normalization (so data can be expressed in terms of % signal change instead of beta weights)
 
 1a. For smoothing in ‘3dmerge’ it is common to set this value to at least 2x your voxel size (many papers use 6-8 mm smoothing kernels).
 
