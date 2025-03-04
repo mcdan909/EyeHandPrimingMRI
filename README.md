@@ -221,7 +221,7 @@ STEP 4. Now you have text files for the beta values for each voxel of each ROI. 
 
 N.B. It is wise to threshold which voxels you include in the mean based on the critical F-value. 
 This ensures that you are only analyzing significant voxels within a given ROI.
-I recommend p < .05 at the very minimum, but you can be more strict and see how it affects your results.
+Eklund et al. (2016) has some deep insights into FDRs in fMRI: https://doi.org/10.1073/pnas.1602413113
 It's often a trade-off because too high of a threshold will result in no significant voxels being extracted (none passed threshold).
 
 STEP 5. Now you have the mean beta values for each ROI! Run the script 'plotBetaWeightROIs' in the GroupAnalysisScriptsMRI > ROI folder. 
