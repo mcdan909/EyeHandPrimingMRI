@@ -122,7 +122,7 @@ These can be used later to despike the data if necessary by censoring outlying t
 
 STEP 6. PREPROCESS THE ANATOMICAL AND ALIGN WITH THE FUNCTIONAL DATA
 
-1. Run the script “preprocessAnat.sh”
+1. Run the script “preprocessAnatStep6.sh”
 
 2. cd to the subject's EPI folder and run AFNI to check the alignment between the EPI ($subj.$runN.tcat.warp.volreg+orig) and the anatomical ($subj.NoSkull.SurfVol.Alnd.Exp+orig) images
 
