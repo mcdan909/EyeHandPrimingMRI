@@ -1,5 +1,8 @@
 # EyeHandPrimingMRI
-Example fMRI pipeline (eye/hand priming)
+
+## See Published Paper: https://pubmed.ncbi.nlm.nih.gov/38165741/
+
+### Example fMRI pipeline
 
 This is a guide to running preprocessing of fMRI data. All scripts you will need are in the folder ProcessingScriptsMRI. These scripts use MATLAB, AFNI, SUMA, and Freesurfer. 
 
